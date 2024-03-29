@@ -1,0 +1,55 @@
+.item {
+
+  text-align: center;
+height: auto;
+}
+
+.timeline{
+  border: 5px solid white;
+}
+
+
+
+.vl-container {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center the .vl */
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 50px;
+}
+
+.timeline {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 3%;
+
+
+}
+
+.company-title {
+  color: black;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  padding-right: 5%;
+font-size: xx-large;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    padding-right: 15%;
+  font-size: xx-large;
+  }
+}

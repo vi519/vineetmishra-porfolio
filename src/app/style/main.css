@@ -1,0 +1,246 @@
+@import "@fontsource/open-sans";
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/400-italic.css";
+@import "@fontsource/lobster";
+@import "@fontsource/lobster/400.css";
+
+
+.main {
+
+    font-family: "Open sans";
+    
+    width: 100%;
+    background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   padding: 1%;
+   overflow-y: hidden;
+}    
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Open Sans";
+    justify-items: start;
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.image-area {
+    height: 50px;
+    width: 300px;
+
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+
+}
+
+.myimg {
+    border-radius: 30%;
+    height: 400px;
+}
+
+.header-line {
+    display: flex;
+    justify-items: start;
+
+}
+
+
+
+
+
+.firstname {
+
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.lastname {
+
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.header-topic {
+    padding-right: 1%;
+    padding-left: 1%;
+   
+    transition: text-decoration 0.3s ease;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .header-topic {
+        padding-bottom: 1%;
+    }
+
+    .header-line {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.into-content {
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 30%;
+    padding-right: 10%;
+
+
+
+
+
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    
+   color: black;
+   font-family: "Open sans";
+   font-size: 50px;
+   font-weight: 700;
+   padding-bottom: 1%;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    background:white;
+    margin-top: 10%;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.profile-image{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-content{
+  color: grey;
+    margin: auto;
+    width: 100%;
+    padding: 3%;
+}
+
+.first-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.projects-domain{
+   padding: 3%;
+}
+.experience{
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    padding-bottom: 1%;
+}
+
+
+
+.scrollup{
+    display: flex;
+    justify-content: end;
+    padding: 2%;
+    background: transparent;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .profile-image{
+        width: 100%;
+    }
+    .profile-content{
+        width: 100%;
+    }
+    .scrollup{
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        background: transparent;
+    }
+    .scroll-pos{
+        padding-bottom: 5%;
+    }
+
+}
+
+
+
+
+
+
+  .header-topic:hover {
+    /* Define styles when hovering over the element */
+    text-decoration: underline; 
+    padding: 2%;
+  }
+
+
