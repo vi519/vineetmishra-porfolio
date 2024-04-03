@@ -76,6 +76,7 @@ background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+
 .header-line {
     display: flex;
     justify-items: start;
+   padding-right: 5%;
 
 }
 
@@ -111,6 +112,7 @@ background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+
     .header-line {
         display: flex;
         flex-direction: column;
+        padding-right: none;
     }
 }
 

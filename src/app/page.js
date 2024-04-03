@@ -96,7 +96,7 @@ export default function Home() {
 </label>
             
           </div>
-          <div className="header-line"  >
+          <div className="header-line" >
             <div className="header-topic" style={isDarkMode ? null : { color: "black" }} onClick={() => scrollToDiv(aboutme)}>AboutMe</div>
             <div className="header-topic" style={isDarkMode ? null : { color: "black" }} onClick={() => scrollToDiv(projects)}>Projects </div>
             <div className="header-topic" style={isDarkMode ? null : { color: "black" }} onClick={() => scrollToDiv(blogs)}>Blogs</div>
