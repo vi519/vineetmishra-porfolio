@@ -25,7 +25,7 @@ function Experience(props) {
 
         <Timeline.Content>
           <Timeline.Time>Feb 2024 - Present</Timeline.Time>
-          <Timeline.Title className="company-title" style={props.isDarkMode ? props.customStyle :null} >Accelya Group - Engineer II Software Development</Timeline.Title>
+          <Timeline.Title className="company-title" style={props.isDarkMode ? props.customStyle :null} >Accelya Group - Senior Engineer</Timeline.Title>
           <Timeline.Body>
             Pune, Maharastra
           </Timeline.Body>
